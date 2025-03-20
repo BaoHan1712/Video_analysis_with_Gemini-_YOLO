@@ -94,20 +94,15 @@ cython_debug/
 .history/
 .vscode-test/
 
-# Temporary files
-*.tmp
-*.swp
-*.bak
+# Data folder
+data/
+video/
+
+# Model files
 *.engine
-*.jpg
-*.png
-*.bmp
-*.gif
-*.webp
-*.mp4
-*.avi
-*.mov
-*.flv
-*.wmv
-*.mkv
-*.webm
+model/
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
