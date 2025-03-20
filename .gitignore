@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Không up các file model, engine (*.pt)
+*.pt
+
 # Virtual environment folders
 env/
 venv/
@@ -95,8 +98,9 @@ cython_debug/
 *.tmp
 *.swp
 *.bak
-*.mp4
+*.engine
+*.jpg
 *.png
-*.jpeg
-*.gif
 *.bmp
+*.gif
+*.webp
