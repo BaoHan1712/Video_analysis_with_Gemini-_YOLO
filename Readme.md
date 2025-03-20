@@ -42,7 +42,7 @@ flowchart TD
     B --> C[Hiển thị kết quả]
 ```
 4. ** Kết quả**:
-![result](data\img1.png)
+![result](img1.png)
 
 Hệ thống được thiết kế theo hướng module, dễ mở rộng và tùy biến. Mọi thành phần đều có thể được điều chỉnh thông qua các tham số đầu vào.
 
