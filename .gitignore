@@ -104,3 +104,10 @@ cython_debug/
 *.bmp
 *.gif
 *.webp
+*.mp4
+*.avi
+*.mov
+*.flv
+*.wmv
+*.mkv
+*.webm
