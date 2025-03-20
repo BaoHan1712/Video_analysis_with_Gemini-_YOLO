@@ -1,5 +1,6 @@
 Mô tả tổng quan
 
+```mermaid
 flowchart TD
     A[Bắt đầu] --> B[Đọc video input]
     B --> C[Xử lý từng frame]
@@ -13,14 +14,16 @@ flowchart TD
     I --> J{Còn frame?}
     J -->|Có| C
     J -->|Không| K[Kết thúc]
+```
 
 1. **Chi tiết các bước xử lý**
 
+```mermaid
 flowchart LR
     A[Load YOLO Model] --> B[Load Gemini Model]
     B --> C[Cấu hình video output]
     C --> D[Khởi tạo annotator]
-
+```
 
 2. **Xử lý frame**:
 ```mermaid
@@ -39,7 +42,7 @@ flowchart TD
     B --> C[Hiển thị kết quả]
 ```
 4. ** Kết quả**:
-![result](data/img1.png)
+![result](data\img1.png)
 
 Hệ thống được thiết kế theo hướng module, dễ mở rộng và tùy biến. Mọi thành phần đều có thể được điều chỉnh thông qua các tham số đầu vào.
 
